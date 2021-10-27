@@ -27,14 +27,6 @@ public class ventana extends JFrame
 		setSize(800, 600);
 		setTitle("Juego");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		try 
-		{
-			modelo = new Tablero();
-		} 
-		catch (Exception e) 
-		{
-			e.printStackTrace();
-		}
 		
 		setLayout(new BorderLayout());
 	}
